@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    outline: 0;
+    /* color: ghostwhite; */
+    text-transform: capitalize;
+}
+
+body {
+    background: black;
+    position: relative;
+    font-size: 62.25%;
+}
+
+.header1 {
+    font-weight: bolder;
+    font-size: 55px;
+    margin-top: 6rem;
+    text-shadow: 1px 4px 3px rgb(249, 244, 244);
+    color: rgb(181, 177, 177);
+}
+
+#header {
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 2rem;
+    color: black;
+}
+
+#save {
+    background-color: deeppink;
+    color: black;
+    height: 3rem;
+    width: 7rem;
+    margin: 2rem;
+    font-style: normal;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px rgb(133, 129, 129);
+    cursor: pointer;
+}
+
+button {
+    background-color: ghostwhite;
+    color: black;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+#increment-btn {
+    background-color: ghostwhite;
+    color: black;
+    height: 3rem;
+    width: 7rem;
+    margin: 2rem;
+    font-style: normal;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px rgb(133, 129, 129);
+    cursor: pointer;
+}
+
+#increment-btn:hover {
+    background-color: deeppink;
+    color: black;
+    margin-left: 4rem;
+}
+
+
+#save:hover {
+    background-color: ghostwhite;
+    color: black;
+    margin-left: 4rem;
+}
+
+
+p {
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top: 3rem;
+}
+
+.darkMode {
+    background-color: rgb(251, 249, 249);
+    color: rgb(13, 13, 13);
+}
