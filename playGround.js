@@ -9,7 +9,7 @@ function increment() {
 }
 
 function save() {
-  let saveStr = count + "-";
+  let saveStr = count + "+";
   paragraph.textContent = paragraph.textContent + saveStr;
   counter.textContent = 0;
   count = 0;
