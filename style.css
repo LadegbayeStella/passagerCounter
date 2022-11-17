@@ -70,13 +70,11 @@ button {
 #increment-btn:hover {
   background-color: deeppink;
   color: black;
-  margin-left: 4rem;
 }
 
 #save:hover {
   background-color: ghostwhite;
   color: black;
-  margin-left: 4rem;
 }
 
 p {
